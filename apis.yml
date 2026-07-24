@@ -1,7 +1,28 @@
 aid: beckon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beckon.png
 name: Beckon
-description: Beckon is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Beckon was a marketing analytics and marketing performance measurement SaaS
+  platform, founded in 2011 and headquartered in San Mateo, California. Its
+  product automated the ingestion, harmonization, and normalization of marketing
+  data from across paid, owned, and earned channels into a single unified set of
+  metrics and dashboards, giving marketing teams a "total marketing intelligence"
+  view of spend, performance, and ROI. Beckon was venture-backed by Canaan
+  Partners and Storm Ventures, and was subsequently acquired into the IgniteTech
+  (ESW Capital / Trilogy) portfolio. The independent beckon.com domain now
+  redirects to its acquirer, IgniteTech, and the company no longer operates a
+  public developer program, API documentation, or developer portal of its own.
 url: https://raw.githubusercontent.com/api-evangelist/beckon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,33 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquirer: ignitetech
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Marketing
+- Marketing Analytics
+- Analytics
+- Business Intelligence
+- Data
+- SaaS
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://www.beckon.com
+- type: DomainSecurity
+  url: security/beckon-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
